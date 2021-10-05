@@ -1,11 +1,12 @@
 import React from "react";
+import pi, { doublePi, triplePi } from "./math.js";
 
 function List() {
   return (
     <ul>
-      <li>Chicken</li>
-      <li>Turkey</li>
-      <li>Bacon</li>
+      <li>{pi}</li>
+      <li>{doublePi()}</li>
+      <li>{triplePi()}</li>
     </ul>
   );
 }
